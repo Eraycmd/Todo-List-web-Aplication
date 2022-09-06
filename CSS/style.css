@@ -240,12 +240,6 @@ input:checked~.bubble::after {
     transition: 0.2s ease-in-out;
 }
 
-@media only screen and (min-width:600px) {
-    .todo-item .actions {
-        margin-right: 80vh;
-    }
-}
-
 .todo-item .actions button:hover {
     opacity: 0.75;
 }
