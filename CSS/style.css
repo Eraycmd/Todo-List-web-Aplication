@@ -240,7 +240,7 @@ input:checked~.bubble::after {
     transition: 0.2s ease-in-out;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (max-width:600px) {
     .todo-item .actions {
         margin: 0 auto;
     }
