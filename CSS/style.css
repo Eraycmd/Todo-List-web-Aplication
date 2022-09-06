@@ -42,9 +42,15 @@ body {
     color: var(--light);
 }
 
+@media only screen and (min-width:600px) {
+    section {
+        margin: 0 auto;
+        width: 100vh;
+    }
+}
+
 section {
-    width: 100vh;
-    margin: auto;
+
     margin-top: 1rem;
     margin-bottom: 2rem;
     padding-left: 1.5rem;
